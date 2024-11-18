@@ -1,85 +1,92 @@
-# 🌐 Network Tools
-
 <div align="center">
+
+# 🌐 Network Tools • নেটওয়ার্ক টুলস
 
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Termux%20|%20Linux-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Telegram](https://img.shields.io/badge/Telegram-RektDevelopers-blue?logo=telegram)](https://t.me/RektDevelopers)
-![Stars](https://img.shields.io/github/stars/Rekt-Developer/network-tools?style=social)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Rekt-Developer.network-tools)](https://github.com/Rekt-Developer/network-tools)
 
-<img src="https://gist.githubusercontent.com/Rekt-Developer/network-tools/assets/banner.svg](https://raw.githubusercontent.com/Rekt-Developer/network-tools/refs/heads/main/assets/banner.svg" width="400">
+<img src="https://raw.githubusercontent.com/Rekt-Developer/network-tools/main/assets/banner.svg" width="600">
 
-Advanced network analysis toolkit with cross-platform support and self-healing capabilities.
+**Advanced Network Analysis Toolkit • উন্নত নেটওয়ার্ক বিশ্লেষণ টুলকিট**
 
-[Install](#-quick-start) • [Features](#-features) • [Commands](#-commands) • [Support](#-support)
+[Install • ইনস্টল](#-quick-start--দ্রুত-শুরু) • [Features • বৈশিষ্ট্য](#-features--বৈশিষ্ট্য) • [Support • সহায়তা](#-support--সহায়তা)
 
 </div>
 
-## 🚀 Quick Start
+## 🚀 Quick Start • দ্রুত শুরু
 
 ```bash
-curl -fsSL bit.ly/rekt-nettools | bash
+# One-Line Installation • এক-লাইন ইনস্টলেশন
+curl -fsSL install.rekt.tools | bash
 ```
 
-## ✨ Features
-
-<div align="center">
+## ✨ Features • বৈশিষ্ট্য
 
 ```mermaid
-graph LR
-    A[Network Tools] --> B[Auto Detection]
-    A --> C[Network Scan]
-    A --> D[Monitoring]
-    A --> E[Self Repair]
-    B --> F[Termux]
-    B --> G[Ubuntu]
-    B --> H[Alpine]
+mindmap
+  root((Network Tools))
+    Auto Detection
+      Termux
+      Ubuntu
+      Alpine
+    Scanning
+      Port Scan
+      Network Map
+      Device Discovery
+    Monitoring
+      Real-time Stats
+      Traffic Analysis
+      Alert System
+    Security
+      Firewall Check
+      Vulnerability Scan
+      Encryption Test
 ```
 
-</div>
+## 📊 Commands • কমান্ড
 
-## 📊 Commands
+| Command | বাংলা | Description | ব্যবহার |
+|---------|-------|-------------|----------|
+| `scan` | স্ক্যান | Quick network scan | `nettools scan` |
+| `analyze` | বিশ্লেষণ | Full system analysis | `nettools analyze` |
+| `monitor` | পর্যবেক্ষণ | Real-time monitoring | `nettools monitor` |
+| `secure` | সুরক্ষা | Security check | `nettools secure` |
 
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `scan` | Quick network scan | `nettools scan` |
-| `analyze` | Full system analysis | `nettools analyze` |
-| `monitor` | Real-time monitoring | `nettools monitor` |
-| `update` | Update tool | `nettools update` |
+## 💻 System Support • সিস্টেম সাপোর্ট
 
-## 📱 Platforms
+- ✅ Termux (টারমাক্স)
+- ✅ Ubuntu (উবুন্টু)
+- ✅ Kali Linux (কালি লিনাক্স)
+- ✅ Alpine (আলপাইন)
 
-- ✅ Termux
-- ✅ Ubuntu
-- ✅ Alpine Linux
-- ✅ Other Linux distros
+## 🛠️ Quick Commands • দ্রুত কমান্ড
 
-## 💻 Requirements
-
-```txt
-✓ Git
-✓ Python 3+
-✓ Net-tools
-✓ Nmap
-```
-
-## 🌟 Screenshots
-
-<div align="center">
-<img src="/api/placeholder/800/400" alt="Network Scanner">
-<img src="/api/placeholder/800/400" alt="Monitoring Dashboard">
-</div>
-
-## 🔧 Troubleshooting
-
-Issues? Try:
 ```bash
-nettools repair
+# Install • ইনস্টল
+pkg install nettools
+
+# Scan Network • নেটওয়ার্ক স্ক্যান
+nettools scan
+
+# Monitor • মনিটরিং
+nettools monitor
+
+# Update • আপডেট
 nettools update
 ```
 
-## 🤝 Support
+## 🌟 Features • বৈশিষ্ট্য
+
+- 🔄 Auto-Detection • স্বয়ংক্রিয় সনাক্তকরণ
+- 🔍 Deep Scanning • গভীর স্ক্যানিং
+- 📊 Live Monitoring • লাইভ মনিটরিং
+- 🛡️ Security Tools • সুরক্ষা টুলস
+- 🔧 Self-Repair • স্ব-মেরামত
+
+## 📱 Support • সহায়তা
 
 [![Telegram](https://img.shields.io/badge/Join-Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/RektDevelopers)
 
@@ -87,6 +94,7 @@ nettools update
 
 <div align="center">
 
-Made with ❤️ by [Rekt Developer Team](https://t.me/RektDevelopers)
+Made with ❤️ by [Rekt Developer Team](https://t.me/RektDevelopers)  
+রেক্ট ডেভেলপার টিম দ্বারা নির্মিত
 
 </div>
