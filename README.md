@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/platform-Termux%20|%20Linux-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Telegram](https://img.shields.io/badge/Telegram-RektDevelopers-blue?logo=telegram)](https://t.me/RektDevelopers)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Rekt-Developer.network-tools)](https://github.com/Rekt-Developer/network-tools)
+
 
 <img src="https://raw.githubusercontent.com/Rekt-Developer/network-tools/main/assets/banner.svg" width="600">
 
