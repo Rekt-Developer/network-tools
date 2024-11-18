@@ -8,7 +8,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram-RektDevelopers-blue?logo=telegram)](https://t.me/RektDevelopers)
 ![Stars](https://img.shields.io/github/stars/Rekt-Developer/network-tools?style=social)
 
-<img src="https://gist.githubusercontent.com/Rekt-Developer/network-tools/assets/banner.svg" width="400">
+<img src="https://gist.githubusercontent.com/Rekt-Developer/network-tools/assets/banner.svg](https://raw.githubusercontent.com/Rekt-Developer/network-tools/refs/heads/main/assets/banner.svg" width="400">
 
 Advanced network analysis toolkit with cross-platform support and self-healing capabilities.
 
