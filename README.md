@@ -1,85 +1,92 @@
-# Network Tools v1.0
+# 🌐 Network Tools
 
-Advanced network analysis and monitoring tool for Linux-based systems, including Termux, Ubuntu, and Alpine Linux.
+<div align="center">
 
-## Features
+![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Termux%20|%20Linux-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![Telegram](https://img.shields.io/badge/Telegram-RektDevelopers-blue?logo=telegram)](https://t.me/RektDevelopers)
+![Stars](https://img.shields.io/github/stars/Rekt-Developer/network-tools?style=social)
 
-- 🚀 Auto-detection of system type
-- 🔧 Self-repairing capabilities
-- 📊 Advanced network interface analysis
-- 🌐 Network monitoring and scanning
-- 💻 Cross-platform compatibility
-- 🎨 Beautiful animated interface
-- 🔄 Auto-update functionality
+<img src="https://gist.githubusercontent.com/Rekt-Developer/network-tools/assets/banner.svg" width="400">
 
-## Quick Installation
+Advanced network analysis toolkit with cross-platform support and self-healing capabilities.
+
+[Install](#-quick-start) • [Features](#-features) • [Commands](#-commands) • [Support](#-support)
+
+</div>
+
+## 🚀 Quick Start
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Rekt-Developer/network-tools/main/install.sh | bash
+curl -fsSL bit.ly/rekt-nettools | bash
 ```
 
-## Manual Installation
+## ✨ Features
 
-1. Clone the repository:
+<div align="center">
+
+```mermaid
+graph LR
+    A[Network Tools] --> B[Auto Detection]
+    A --> C[Network Scan]
+    A --> D[Monitoring]
+    A --> E[Self Repair]
+    B --> F[Termux]
+    B --> G[Ubuntu]
+    B --> H[Alpine]
+```
+
+</div>
+
+## 📊 Commands
+
+| Command | Description | Usage |
+|---------|-------------|-------|
+| `scan` | Quick network scan | `nettools scan` |
+| `analyze` | Full system analysis | `nettools analyze` |
+| `monitor` | Real-time monitoring | `nettools monitor` |
+| `update` | Update tool | `nettools update` |
+
+## 📱 Platforms
+
+- ✅ Termux
+- ✅ Ubuntu
+- ✅ Alpine Linux
+- ✅ Other Linux distros
+
+## 💻 Requirements
+
+```txt
+✓ Git
+✓ Python 3+
+✓ Net-tools
+✓ Nmap
+```
+
+## 🌟 Screenshots
+
+<div align="center">
+<img src="/api/placeholder/800/400" alt="Network Scanner">
+<img src="/api/placeholder/800/400" alt="Monitoring Dashboard">
+</div>
+
+## 🔧 Troubleshooting
+
+Issues? Try:
 ```bash
-git clone https://github.com/Rekt-Developer/network-tools.git
+nettools repair
+nettools update
 ```
 
-2. Change to directory:
-```bash
-cd network-tools
-```
+## 🤝 Support
 
-3. Make scripts executable:
-```bash
-chmod +x *.sh
-```
+[![Telegram](https://img.shields.io/badge/Join-Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/RektDevelopers)
 
-4. Run the tool:
-```bash
-./nettools.sh
-```
+---
 
-## Available Commands
+<div align="center">
 
-- `scan` - Quick network scan
-- `analyze` - Full network analysis
-- `monitor` - Real-time network monitoring
-- `telegram` - Join our Telegram channel
-- `update` - Update the tool
-- `exit` - Exit the program
+Made with ❤️ by [Rekt Developer Team](https://t.me/RektDevelopers)
 
-## Requirements
-
-- Git
-- Python 3
-- Net-tools
-- iproute2
-- Nmap
-- Curl
-
-## Support
-
-Join our Telegram channel for support and updates:
-[https://t.me/RektDevelopers](https://t.me/RektDevelopers)
-
-## Version History
-
-### v1.0 (Initial Release)
-- Auto-detection of system type
-- Basic and advanced network scanning
-- Self-repair functionality
-- Animated interface
-- Cross-platform support
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+</div>
