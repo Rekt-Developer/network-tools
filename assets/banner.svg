@@ -1,47 +1,60 @@
-<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Gradient Background -->
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Advanced Gradient Background -->
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#4a4a4a;stop-opacity:1" />
+    <linearGradient id="cyberbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A192F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#112240;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#233554;stop-opacity:1" />
     </linearGradient>
     
-    <!-- Glow Filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+    <!-- Neon Glow Effect -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#64FFDA" flood-opacity="0.5"/>
+      <feComposite in2="blur" operator="in"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    
+    <!-- Circuit Pattern -->
+    <pattern id="circuit" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M0,25 L50,25 M25,0 L25,50" stroke="#64FFDA" stroke-width="0.5" opacity="0.2"/>
+      <circle cx="25" cy="25" r="3" fill="#64FFDA" opacity="0.2"/>
+    </pattern>
   </defs>
   
-  <!-- Background Rectangle -->
-  <rect width="800" height="200" fill="url(#grad1)" rx="10"/>
+  <!-- Background with Circuit Pattern -->
+  <rect width="800" height="300" fill="url(#cyberbg)"/>
+  <rect width="800" height="300" fill="url(#circuit)"/>
   
-  <!-- Network Grid Lines -->
-  <g stroke="#2196F3" stroke-width="0.5" opacity="0.3">
-    <path d="M0,50 L800,50" />
-    <path d="M0,100 L800,100" />
-    <path d="M0,150 L800,150" />
-    <path d="M200,0 L200,200" />
-    <path d="M400,0 L400,200" />
-    <path d="M600,0 L600,200" />
+  <!-- Network Grid Animation -->
+  <g stroke="#64FFDA" stroke-width="0.5" opacity="0.3">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="50,0" dur="3s" repeatCount="indefinite"/>
+    <path d="M0,75 L800,75"/>
+    <path d="M0,150 L800,150"/>
+    <path d="M0,225 L800,225"/>
   </g>
   
-  <!-- Main Title -->
-  <text x="400" y="80" fill="#ffffff" font-family="Arial" font-size="48" text-anchor="middle" filter="url(#glow)" font-weight="bold">
+  <!-- Main Title (English) -->
+  <text x="400" y="100" fill="#64FFDA" font-family="Arial" font-size="48" text-anchor="middle" filter="url(#neonGlow)" font-weight="bold">
     NETWORK TOOLS
   </text>
   
-  <!-- Subtitle -->
-  <text x="400" y="120" fill="#2196F3" font-family="Arial" font-size="24" text-anchor="middle">
-    Advanced Network Analysis Suite
+  <!-- Subtitle (Bangla) -->
+  <text x="400" y="150" fill="#64FFDA" font-family="SolaimanLipi" font-size="32" text-anchor="middle">
+    নেটওয়ার্ক টুলস
+  </text>
+  
+  <!-- Feature Text -->
+  <text x="400" y="200" fill="#64FFDA" font-family="Arial" font-size="20" text-anchor="middle">
+    Advanced Network Analysis • নেটওয়ার্ক এনালাইসিস
   </text>
   
   <!-- Version Badge -->
-  <g transform="translate(350,140)">
-    <rect width="100" height="30" rx="15" fill="#2196F3"/>
-    <text x="50" y="20" fill="white" font-family="Arial" font-size="14" text-anchor="middle">v1.0</text>
+  <g transform="translate(350,230)">
+    <rect width="100" height="30" rx="15" fill="#64FFDA" opacity="0.8"/>
+    <text x="50" y="20" fill="#0A192F" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">v1.0</text>
   </g>
 </svg>
